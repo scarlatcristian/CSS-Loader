@@ -29,11 +29,12 @@ body {
   height: 0;
   border: 50px solid transparent;
   border-bottom-color: #fff;
-  animation: rotateA 2s linear infinite, 0.5s;
+  animation: rotateA 2s linear infinite;
+  animation-delay: 0.5s;
 }
 
 .loader::before {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
   animation: rotateB 2s linear infinite;
 }
 
